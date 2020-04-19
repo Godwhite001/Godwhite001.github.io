@@ -1,9 +1,0 @@
-<!doctype html>
-<html>
-	<head>
-	</head>
-<body>
-	<h3 style="text-align:center;"><font color= red>更新日志:</font></h3>
-	<h2 style="text-align:center;"><font color= red>-添加了一把神器 断域雷魂-伤害5000-价格8W</font></h2>
-</body>
-</html>
