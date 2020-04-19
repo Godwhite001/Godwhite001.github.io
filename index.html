@@ -1,44 +1,76 @@
 ﻿<!doctype html>
 <html>
 	<head>
+		<style type="text/css">
+			a.color1 {color:#FF00FF;text-decoration:none;}
+			a.color1:hover {color:#ff6600;text-decoration:none;}
+			a.color1:active {color: #ff0000;text-decoration:none;}
+			a.color2 {color:#00bf30;text-decoration:none;}
+			a.color2:hover {color: #00ff00;text-decoration:none;}
+			a.color2:active {color: #ff0000;text-decoration:none;}
+			.box{
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -30%);
+    	    width: 1250px;
+    	    height: 400px;
+    	    margin:auto;
+    	    overflow-y:scroll;
+    	    letter-spacing: 5px;
+    	    -moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 5px;
+			background-color:rgba(255, 255, 255,0.8);
+    	    }
+    	 div{
+       	 border-radius:50%;
+      	 overflow: hidden;
+        	margin: auto;
+        	}
+        	div img{width:100%;}
+		</style>
 	</head>
-<body bgcolor="#C0C0C0">
-<font color = #800040>
-	<h3 style="text-align:center;">更新日志</h3>
-	<h2 style="text-align:center;">-添加了一把神器 断域雷魂-伤害5000-价格8W</h2>
-	<h2 style="text-align:center;">更新时间:2020年4月19日17:01:56</h2>
-		<h3 style="text-align:center;">修改说明</h3>
-	<h2 style="text-align:center;">技能列表-修改说明</h2>
-	<h4 style="text-align:center;">熔岩沼泽----生成黏性土坑条件从原先的150改为300 持续时间延长至20秒 每回合(+2)</h4>
-	<h4 style="text-align:center;">第六感----范围从原先的100改为120 每回合(+0.1)</h4>
-	<h4 style="text-align:center;">弹药繁殖----最后一回合获得无限子弹 (适用胜利回合为13的房间)</h4>
-	<h4 style="text-align:center;">黑洞----从原先的192范围更改为250 持续时间延长至1.5秒 每回合(+0.1)</h4>
-	<h4 style="text-align:center;">瞬步----连续按下前进键冲刺时间改为5秒一次 每回合(-0.1) 冲刺范围改为145 每回合(+5)</h4>
-	<h4 style="text-align:center;">干扰装置----范围增强至50 每回合（+2）移速-50% 攻速-50% 持续时间5秒</h4>
-	<h4 style="text-align:center;">猛犸象----所受伤害改为减少45% 每回合(+ -1.6) 受到的击退效果将会减少50% 每回合(+ -1.46)</h4>
-	<h4 style="text-align:center;">范围感染----改为最多可以感染3个人</h4>
-	<h4 style="text-align:center;">罪恶终结----改为生命值降低到5%为濒死状态</h4>
-	<h4 style="text-align:center;">生存意志----防护罩受到攻击后击飞敌人100的距离 每回合(+25)</h4>
-	<h4 style="text-align:center;">烛龙之怒----每射击4次额外伤害改为75 每回合(+100)</h4>
-	<h4 style="text-align:center;">火翎----火翎鸟飞行过程中碰触到的敌人将会受到350 每回合(+80)的伤害</h4>
-	<h4 style="text-align:center;">蒸汽暴走----每击中敌人10次之后 攻击力将会提升5 每回合(+1)</h4>
-	<h4 style="text-align:center;">不稳定变异----移除此技能可获得5W金钱</h4>
-	<h4 style="text-align:center;">爆炸子弹----每射击60(-1)发子弹会在着弹处产生爆炸</h4>
-	<h4 style="text-align:center;">榴弹打击----所有爆炸物的威力增加8.50% 每回合(+3)</h4>
-	<h4 style="text-align:center;">狂暴弹----爆炸物的范围将会增加15.00% 每回合(+2)</h4>
-	<h4 style="text-align:center;">狩猎----每5秒标记一个人类</h4>
-	<h4 style="text-align:center;">感知----每5秒标记一个僵尸</h4>
-	<h4 style="text-align:center;">切换射击----切换主副武器技能持续时间改为1.5秒 每回合(+0.2) 射击速度提升4 每回合(+2)</h4>
-	<h4 style="text-align:center;">袋鼠----跳跃能力提升5% 每回合(+1) 技能改为人类专用</h4>
-	<h4 style="text-align:center;">他们回来了----复活时间延长至23秒 每回合(-1)</h4>
-	<h4 style="text-align:center;">生化炸弹----不稳定物质会在64 每回合(+8)范围内产生影响 范围内的人类会从爆炸中心往外击退256 每回合(+10)的距离</h4>
-	<h4 style="text-align:center;">背水一战----当房间内人类数量少于5时 每减少一名所有人攻击力增加20% 每回合(+0.86)</h4>
-	<h4 style="text-align:center;">能量弹珠----射击时以0.3% 每回合(+0.00005)的概率发射弹珠 给敌人带来500 每回合(+21.7)的伤害</h4>
-	<h4 style="text-align:center;">王牌特工----射击时每击中目标20 每回合（+ -0.39）次后 将会在目标的位置发生爆炸 周围受到此伤害的所有敌人将会被击退100 每回合（+6.7）的距离</h4>
-	<h4 style="text-align:center;">冷气释放----落地后将会对一定范围内的所有敌人 在一定时间内造成减少25% 每回合（+ 1.2）的速度 崔西汉克不受影响</h4>
-	<h4 style="text-align:center;">连锁闪电----使用狙击步枪命中目标时有83.5% 每回合（+0.5）的几率发生静电冲击</h4>
-	<h4 style="text-align:center;">变异觉醒----从原先的只能获取50个技能改为无上限</h4>
-	<h4 style="text-align:center;">格斗大师----攻击力削弱 攻击距离削弱 </h4>
+<body bgcolor="#C0C0C0" >
+<font color = #535353>
+	<h3 style="text-align:center;"><font color = #ff0080>更新日志</font></h3>
+	<h2 style="text-align:center;"><font color = #0000ff>-添加了一把神器 断域雷魂-伤害5000-价格8W</font></h2>
+	<h2 style="text-align:center;"><font color = #ff0000>2020-4-19 17:57:49</font></h2>
 </font>
+	<div class="box" >
+	<h3 style="text-align:center;">技能列表-修改说明<br></h3>
+	<font size = 1>
+&ensp;熔岩沼泽-生成黏性土坑条件从原先的150改为300 持续时间延长至20秒 每回合(+2)<br>
+&ensp;第六感-范围从原先的100改为120 每回合(+0.1)<br>
+&ensp;弹药繁殖-最后一回合获得无限子弹 (适用胜利回合为13的房间)<br>
+&ensp;黑洞-从原先的192范围更改为250 持续时间延长至1.5秒 每回合(+0.1)<br>
+&ensp;瞬步-连续按下前进键冲刺时间改为5秒一次 每回合(-0.1) 冲刺范围改为145 每回合(+5)<br>
+&ensp;干扰装置-范围增强至50 每回合（+2）移速-50% 攻速-50% 持续时间5秒<br>
+&ensp;猛犸象-所受伤害改为减少45% 每回合(+ -1.6) 受到的击退效果将会减少50% 每回合(+ -1.46)<br>
+&ensp;范围感染-改为最多可以感染3个人<br>
+&ensp;罪恶终结-改为生命值降低到5%为濒死状态<br>
+&ensp;生存意志-防护罩受到攻击后击飞敌人100的距离 每回合(+25)<br>
+&ensp;烛龙之怒-每射击4次额外伤害改为75 每回合(+100)<br>
+&ensp;火翎-火翎鸟飞行过程中碰触到的敌人将会受到350 每回合(+80)的伤害<br>
+&ensp;蒸汽暴走-每击中敌人10次之后 攻击力将会提升5 每回合(+1)<br>
+&ensp;不稳定变异-移除此技能可获得5W金钱<br>
+&ensp;爆炸子弹-每射击60(-1)发子弹会在着弹处产生爆炸<br>
+&ensp;榴弹打击-所有爆炸物的威力增加8.50% 每回合(+3)<br>
+&ensp;狂暴弹-爆炸物的范围将会增加15.00% 每回合(+2)<br>
+&ensp;狩猎-每5秒标记一个人类<br>
+&ensp;感知-每5秒标记一个僵尸<br>
+&ensp;切换射击-切换主副武器技能持续时间改为1.5秒 每回合(+0.2) 射击速度提升4 每回合(+2)<br>
+&ensp;袋鼠-跳跃能力提升5% 每回合(+1) 技能改为人类专用<br>
+&ensp;他们回来了-复活时间延长至23秒 每回合(-1)<br>
+&ensp;生化炸弹-不稳定物质会在64 每回合(+8)范围内产生影响 范围内的人类会从爆炸中心往外击退256 每回合(+10)的距离<br>
+&ensp;背水一战-当房间内人类数量少于5时 每减少一名所有人攻击力增加20% 每回合(+0.86)<br>
+&ensp;能量弹珠-射击时以0.3% 每回合(+0.00005)的概率发射弹珠 给敌人带来500 每回合(+21.7)的伤害<br>
+&ensp;王牌特工-射击时每击中目标20 每回合（+ -0.39）次后 将会在目标的位置发生爆炸 周围受到此伤害的所有敌人将会被击退100 每回合（+6.7）的距离<br>
+&ensp;冷气释放-落地后将会对一定范围内的所有敌人 在一定时间内造成减少25% 每回合（+ 1.2）的速度 崔西汉克不受影响<br>
+&ensp;连锁闪电-使用狙击步枪命中目标时有83.5% 每回合（+0.5）的几率发生静电冲击<br>
+&ensp;变异觉醒-从原先的只能获取50个技能改为无上限<br>
+&ensp;格斗大师-攻击力削弱 攻击距离削弱 <br><br>
+	</font>
+	</div>
 </body>
 </html>
